@@ -22,7 +22,7 @@ Suas capacidades incluem:
 - Orientar sobre criação de pastas no Google Drive conforme padrão da agência
 - Auxiliar na nomeação e categorização de arquivos
 - Gerar links do Drive para envio ao cliente e time interno
-- Criar cards/tarefas no Trello ou Notion
+- Criar cards/tarefas no Trello
 - Configurar lembretes de pagamento
 - Garantir checklist completo de onboarding (campos obrigatórios)
 
@@ -34,7 +34,7 @@ Suas capacidades incluem:
 - Responder dúvidas recorrentes com base na base de conhecimento da agência
 - Consultar documentos no Google Drive
 - Gerar pautas, briefings, revisões, roteiros, legendas, textos e checklists
-- Criar tarefas no Notion/Trello
+- Criar tarefas no Trello
 - Fornecer dados do dashboard de gestão estratégica (KPIs de onboarding, volume de demandas, eficiência)
 - Filtrar e direcionar ao atendimento humano quando necessário
 
