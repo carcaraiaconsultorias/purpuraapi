@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Carcará Design System - Preto, Verde, Cinza */
+
+@layer base {
+  :root {
+    /* Light theme */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+
+    /* Verde Carcará */
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 142 76% 36%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar light */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 25%;
+    --sidebar-primary: 142 76% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 94%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 89%;
+    --sidebar-ring: 142 76% 36%;
+
+    /* Custom Carcará tokens */
+    --carcara-green: 142 76% 36%;
+    --carcara-dark-blue: 220 70% 15%;
+    --carcara-gray: 0 0% 45%;
+    --carcara-light-gray: 0 0% 94%;
+  }
+
+  .dark {
+    /* Dark theme */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Verde Carcará */
+    --primary: 142 76% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 142 76% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 142 76% 42%;
+
+    /* Sidebar dark */
+    --sidebar-background: 0 0% 9%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 142 76% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 142 76% 42%;
+
+    /* Custom Carcará tokens dark */
+    --carcara-green: 142 76% 42%;
+    --carcara-dark-blue: 220 70% 20%;
+    --carcara-gray: 0 0% 60%;
+    --carcara-light-gray: 0 0% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Chat bubble styles */
+.chat-bubble-user {
+  @apply bg-primary text-primary-foreground;
+}
+
+.chat-bubble-agent {
+  @apply bg-muted text-foreground;
+}
